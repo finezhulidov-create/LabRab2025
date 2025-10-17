@@ -16,6 +16,7 @@ public class Example6 {
         System.out.println("Введи свое отчество");
         String nname = in.nextLine();
         System.out.println("Привет, " + surname + " , " + name + " , " + nname);
+        in.close();
     }
 
 
