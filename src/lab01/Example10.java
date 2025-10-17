@@ -7,9 +7,9 @@ public class Example10 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите год рождения");
         int num = in.nextInt();
-        int    num2 = 2025-num;
+        int    num1 = 2025-num;
 
-        System.out.println(num2);
+        System.out.println(num1);
         in.close();
     }
 
