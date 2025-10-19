@@ -1,5 +1,4 @@
-package timus.task_1293;
-
+package timus.task_1000;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
@@ -8,10 +7,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner in= new Scanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
-        int n= in.nextInt(), a= in.nextInt(), b= in.nextInt();
-        int result = ((a*b)*n)*2;
 
-        out.println( result );
+        int a= in.nextInt();
+        int b= in.nextInt();
+       int c = a+b;
+
+        out.println(c);
         out.flush();
     }
 }
