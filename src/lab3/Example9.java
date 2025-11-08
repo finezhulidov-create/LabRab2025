@@ -2,7 +2,7 @@ package lab3;
 
 import java.util.Arrays;
 import java.util.Random;
-import java.util.Scanner;
+import java.util.Scanner;     // 0 1 2 3
 
 public class Example9 {
     public static void main(String[] args) {
@@ -17,12 +17,12 @@ public class Example9 {
             System.out.println("Element of array ["+i+"] = "+ nums[i]);
         }
         // сортировка пузырьком
-        for (int i = 0; i < nums.length - 1; i++){ // перебор каждого элемента массива
-            for(int j = 0; j < nums.length - i - 1; j++){// перебор каждого элемента до предпоследнего
-                if (nums[j+1]<nums[j]){// проверка соседних элементов и замена левого и правого
+        for (int i = 0; i < nums.length ; i++){ // перебор каждого элемента массива
+            for(int j = i+1; j < nums.length; j++){// перебор каждого элемента до предпоследнего
+                if (nums[j]<nums[i]){// проверка соседних элементов и замена левого и правого
                     int swap =nums[j];
-                    nums[j] = nums[j+1];
-                    nums[j+1] = swap;
+                    nums[j] = nums[i];
+                    nums[i] = swap;
                 }
             }
         }
