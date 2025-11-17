@@ -33,9 +33,7 @@ public class Example5 {
                     matrix[i][j] = matrix[j][i];
                     matrix[j][i]= temp;
 
-               // System.out.print(matrix[i][j]+ " ");
             }
-            System.out.println();
         }
         System.out.println("After transponation: ");
         for (int i = 0; i < str; i++) {
