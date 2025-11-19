@@ -1,4 +1,4 @@
-package lab5.main1;
+package lab5.example4;
 
 public class Main4 {
     public static void main(String[] args) {
