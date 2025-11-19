@@ -1,4 +1,4 @@
-package lab5;
+package lab5.Main;
 
 
 
@@ -16,10 +16,5 @@ public class Example1 {
     public void printCharAndCode(){
         System.out.println("Symbol: " + this.charManeger +"  " + "Code: " + getCharCode());
     }
-    public static void main(String[] args) {
 
-        Example1 example = new Example1();
-        example.setChar('h');
-        example.printCharAndCode();
-    }
 }
