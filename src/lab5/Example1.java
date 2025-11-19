@@ -11,7 +11,7 @@ public class Example1 {
         this.charManeger = g;
     }
     public  int getCharCode(){
-        return (int) this.charManeger;
+        return  this.charManeger;
     }
     public void printCharAndCode(){
         System.out.println("Symbol: " + this.charManeger +"  " + "Code: " + getCharCode());
