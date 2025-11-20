@@ -14,8 +14,10 @@ public class Example4 {
     }
 
     public Example4(double doubleValue) {
-        this.oneInt = (int) (doubleValue - this.oneInt);;
+        this.oneInt = (int) doubleValue;
+        double fractPart = (doubleValue - this.oneInt)*100;
         this.oneChar = (char) doubleValue;
+        this.oneInt = (int) fractPart;
     }
 
     public char getOneChar() {
