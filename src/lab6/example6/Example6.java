@@ -1,4 +1,7 @@
 package lab6.example6;
+
+import java.util.Arrays;
+
 //6. Напишите программу со статическим методом,
 // которому аргументом передается целочисленный массив и целое число.
 // Результатом метод возвращает ссылку на новый массив,
@@ -28,6 +31,6 @@ public class Example6 {
         arrInt[2] = 8;
 
         int[] arrayResult = Example6.intArrChange(arrInt, 2);
-        System.out.println(arrayResult);
+        System.out.println(Arrays.toString(arrayResult));
     }
 }
