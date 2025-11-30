@@ -32,5 +32,7 @@ public class Example6 {
 
         int[] arrayResult = Example6.intArrChange(arrInt, 2);
         System.out.println(Arrays.toString(arrayResult));
+        int[] arrayResult2 = Example6.intArrChange(arrInt, 15);
+        System.out.println(Arrays.toString(arrayResult2));
     }
 }
